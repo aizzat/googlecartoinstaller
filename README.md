@@ -26,6 +26,9 @@ git clone https://github.com/aizzat/googlecartoinstaller
 cd ~/googlecartoinstaller
 chmod +x cartoinstallaizzat
 ./cartoinstallaizzat
+
+#after finish installing run this:
+source $HOME/catkin_ws/install_isolated/setup.bash
 ```
 To test run: 
 
