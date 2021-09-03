@@ -25,7 +25,7 @@ cd ~
 git clone https://github.com/aizzat/googlecartoinstaller
 cd ~/googlecartoinstaller
 chmod +x cartoinstallaizzat
-./ cartoinstallaizzat
+./cartoinstallaizzat
 ```
 To test run: 
 
