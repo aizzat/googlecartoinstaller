@@ -32,10 +32,17 @@ source $HOME/catkin_ws/install_isolated/setup.bash
 ```
 To test run: 
 
+Download and launch the 2D demo: 
+```
+wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag
+source $HOME/catkin_ws/install_isolated/setup.bash
+roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag
+```
+
+
 Download and launch the 3D backpack demo: 
 ```
- wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_3d/with_intensities/b3-2016-04-05-14-14-00.bag 
-
+wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_3d/with_intensities/b3-2016-04-05-14-14-00.bag 
 source $HOME/catkin_ws/install_isolated/setup.bash
 roslaunch cartographer_ros demo_backpack_3d.launch bag_filename:=${HOME}/Downloads/b3-2016-04-05-14-14-00.bag
  ```
