@@ -30,7 +30,7 @@ chmod +x cartoinstallaizzat
 #after finish installing run this:
 source $HOME/catkin_ws/install_isolated/setup.bash
 ```
-To test run: 
+# To test run: 
 
 Download and launch the 2D demo: 
 ```
