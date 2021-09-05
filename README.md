@@ -1,5 +1,5 @@
 # googlecartoinstaller
-Simplified installer for Google Cartographer
+Simplified installer for Google Cartographer. This package is for educational and learning purpose only to simplify the installation process for the new machine. 
 
 # Dependency 
 
