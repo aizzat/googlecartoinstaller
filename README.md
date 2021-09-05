@@ -18,7 +18,7 @@ Please ensure it is compiled successfully.
 
 2. Download and run the installer: 
 
-Type Y as instructed and enter Sudo password. 
+Type N for Noetic of M for Melodic as instructed and enter Sudo password. 
 
 ```
 cd ~
