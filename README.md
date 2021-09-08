@@ -10,7 +10,7 @@ Simplified installer for Google Cartographer. This package is for educational an
 1. Create catkin_ws if you have not done this: 
 ```
 cd ~
-mkdir -p catkin_ws/src
+mkdir -p ~/catkin_ws/src
 cd ..
 catkin_make
 ```
